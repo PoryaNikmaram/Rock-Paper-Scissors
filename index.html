@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RPS GAME</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+    <div class="game">
+        <div id="player" class="players">
+            <h1 class="name">PLAYER</h1>
+            <h1 id="player-score" class="score">2</h1>
+            <img src="question.png" alt="question" class="player-choose-img">
+        </div>
+        <div id="computer" class="players">
+            <h1 class="name">COMPUTER</h1>
+            <h1 id="computer-score" class="score">2</h1>
+            <img src="question.png" alt="question" class="computer-choose-img">
+        </div>
+
+        <h1 class="situation">DRAW</h1>
+        <button class="btn-restart"><i class="fa-solid fa-arrows-rotate"></i></button>
+        <button class="btn btn-rock"><img src="rock.png" alt="rock"></button>
+        <button class="btn btn-paper"><img src="paper.png" alt="paper"></button>
+        <button class="btn btn-scissors"><img src="scissors.png" alt="scissors"></button>
+        <button class="btn btn-result">RESULT</button>
+    </div>
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>

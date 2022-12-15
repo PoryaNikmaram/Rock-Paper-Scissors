@@ -1,0 +1,65 @@
+@media only screen and (max-width: 800px) {
+    .game {
+        width: 550px;
+    }
+    .game img {
+        width: 60px;
+    }
+    .btn-rock {
+        left: 35%;
+    }
+    .btn-scissors {
+        left: 65%;
+    }
+    .btn-restart {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .game {
+        width: 370px;
+        padding: 0.7rem;
+    }
+    .game img {
+        width: 45px;
+    }
+    #player {
+        padding-right: 60px;
+    }
+    #computer {
+        padding-left: 60px;
+    }
+    .player-choose-img,
+    .computer-choose-img {
+        margin-top: 15px;
+    }
+    .players img {
+        width: 65px;
+    }
+    .score {
+        font-size: 30px;
+    }
+    .name {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .situation {
+        font-size: 18px;
+    }
+    .btn {
+        top: 75%;
+    }
+    .btn-result {
+        top: 90%;
+    }
+    .btn-rock {
+        left: 36%;
+    }
+    .btn-scissors {
+        left: 64%;
+    }
+    .btn-restart {
+        padding: 7px;
+    }
+}
